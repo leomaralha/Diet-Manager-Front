@@ -1,0 +1,105 @@
+.container {
+    margin: 80px auto 0;
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0px;
+    align-content: stretch;
+    width: 100%;
+    justify-content: space-around;
+    background: #FFF;
+    padding: 15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.container-header>h3 {
+    align-self: center;
+    justify-self: left;
+    font-size: 33px;
+    font-weight: 40px;
+    color: rgba(28, 95, 7, 0.507);
+}
+
+.container-header>img {
+    max-width: 80px;
+    max-height: 80px;
+    opacity: 0.8;
+}
+
+.content {
+    width: 100%;
+    background: #FFF;
+    margin-top: 20px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content>p {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.content form input {
+    margin-top: 3px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    height: 45px;
+    padding: 0px 15px;
+    font-size: 16px;
+}
+
+.error-shadow {
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(241, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 6px 1px rgba(241, 0, 0, 0.5);
+    box-shadow: 0px 0px 6px 1px rgba(241, 0, 0, 0.5);
+}
+
+.content form input:focus {
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(12, 190, 18, 0.5);
+    -moz-box-shadow: 0px 0px 6px 1px rgba(12, 190, 18, 0.5);
+    box-shadow: 0px 0px 6px 1px rgba(12, 190, 18, 0.5);
+}
+
+.content button.btn {
+    border: 0;
+    border-radius: 2px;
+    width: 100%;
+    height: 42px;
+    padding: 0px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: rgb(26, 182, 26);
+    color: #FFF;
+}
+
+#btn-login {
+    background: rgb(58, 83, 224);
+}
+
+#btn-login:hover {
+    background: rgb(34, 49, 134);
+    color: #FFF;
+}
+
+.content button.btn:hover {
+    background: rgb(18, 126, 18);
+    color: #FFF;
+}

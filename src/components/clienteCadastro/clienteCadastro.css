@@ -1,0 +1,44 @@
+.content {
+    margin-bottom: 30px;
+}
+
+#btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content button.btn-success {
+    border: 0;
+    border-radius: 2px;
+    width: 30%;
+    height: 42px;
+    padding: 0px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: rgb(26, 182, 26);
+    color: #FFF;
+}
+
+.content button.btn-success:hover {
+    background: rgb(18, 126, 18);
+    color: #FFF;
+}
+
+.content button.btn-error {
+    border: 0;
+    border-right: 15px;
+    border-radius: 2px;
+    width: 30%;
+    height: 42px;
+    padding: 0px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: rgb(124, 15, 15);
+    color: #FFF;
+}
+
+.content button.btn-error:hover {
+    background: rgb(95, 11, 11);
+    color: #FFF;
+}
